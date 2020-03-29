@@ -65,6 +65,3 @@ value ("Legal Team Lead", 250000, (select id from department where name="Legal")
 
 insert into role(title,salary,department_id)
 value ("Lawyer", 190000, (select id from department where name="Legal"));
-
-
-
